@@ -1,2 +1,2 @@
-# Batch
-This repository is used for holding various batch files
+# Scripts for Windows and BASH
+This repository is used for holding various batch and script files. 
