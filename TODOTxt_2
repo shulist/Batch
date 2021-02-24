@@ -1,0 +1,8 @@
+Rem Batch file to start two copies of ToDotxt.net
+Rem [Link to Batch file scripting ""https://en.wikibooks.org/wiki/Windows_Batch_Scripting""]
+@ECHO
+SET DIRPGM=E:\Data\Software\PortableApps\PortableApps\ToDo.txt_331
+SET FILE1=C:\Users\Michael\Dropbox\Apps\Simpletask\Projects\02-Development.txt
+SET FILE2=C:\Users\Michael\Dropbox\Apps\Simpletask\10-Florida_2020.txt
+START E:\Data\Software\PortableApps\PortableApps\ToDo.txt_331\todotxt.exe %FILE1%
+START E:\Data\Software\PortableApps\PortableApps\ToDo.txt_331\todotxt.exe %FILE2%
